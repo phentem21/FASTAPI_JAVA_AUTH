@@ -90,11 +90,4 @@ This script creates a user with the details specified in the `create_user.py` fi
 1. Support for RBAC (Role-Based Access Control) can be extended in future versions.
 """
 
-# Path for README.md
-readme_path = os.path.join(base_path, "README.md")
 
-# Write the README.md file
-with open(readme_path, "w") as readme_file:
-    readme_file.write(readme_content)
-
-readme_path
